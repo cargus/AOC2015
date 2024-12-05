@@ -10,5 +10,7 @@ while i <= length:
         i +=1
     elif content[i] == ")":
         floor -=1
+        if floor ==-1:
+            break
         i +=1
-print (floor)
+print (i+1)
